@@ -1,8 +1,8 @@
-// https://github.com/michael-ciniawsky/postcss-load-config
+let tailwindcss = require('tailwindcss');
 
 module.exports = {
-  "plugins": {
-    // to edit target browsers: use "browserlist" field in package.json
-    "autoprefixer": {}
-  }
-}
+    'plugins': [
+        tailwindcss('./tailwind.js'),
+        require('autoprefixer')
+    ]
+};
