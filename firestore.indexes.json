@@ -43,11 +43,11 @@
       "collectionId": "entries",
       "fields": [
         {
-          "fieldPath": "uid",
+          "fieldPath": "accountId",
           "mode": "ASCENDING"
         },
         {
-          "fieldPath": "accountId",
+          "fieldPath": "uid",
           "mode": "ASCENDING"
         },
         {

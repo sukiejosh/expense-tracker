@@ -1,8 +1,10 @@
-# expense-tracker
+# Expense Tracker
 
 > An open source PWA for expense/income tracking
 
 ## Build Setup
+
+You will need to change the firebase credentials in ```src/app/firebase.js```  as well as the project name in ```.firebaserc```.  
 
 ``` bash
 # install dependencies
@@ -26,5 +28,3 @@ npm run e2e
 # run all tests
 npm test
 ```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
